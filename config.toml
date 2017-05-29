@@ -1,16 +1,16 @@
-baseurl = "https://www.example.com"
+baseurl = "https://www.tezosfoundation.swiss"
 languageCode = "fr-fr"
-title = "my new web site"
+title = "Tezos Foundation"
 [params]
-  description = "I <3 making web site"
+  description = "Tezos Foundation"
   mainIcon = "/img/hugo.png"
 
 [[params.social]]
     title = "twitter"
-    url = "https://twitter.com/SBootstrap"
+    url = "https://twitter.com/tezosfoundation"
 [[params.social]]
     title = "github"
-    url = "https://github.com/IronSummitMedia/startbootstrap"
+    url = "https://github.com/tezos"
 [[params.social]]
     title = "linkedin"
     url = ""
