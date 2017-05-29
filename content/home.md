@@ -4,4 +4,4 @@ title = "home"
 draft = true
 
 +++
-
+The Tezos Foundation promotes the development of the Tezos blockchain and smart contracting platform, as well as related technologies and applications, and a vibrant ecosystem of developers and users.
