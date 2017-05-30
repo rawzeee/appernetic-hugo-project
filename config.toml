@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://tezos.swiss/"
 languageCode = "en-us"
-title = "Agency"
+title = "Tezos Foundation"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -17,8 +17,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Tezos Foundation"
+  description = "The Tezos Foundation promotes the development of the Tezos blockchain and smart contracting platform, as well as related technologies and applications, and a vibrant ecosystem of developers and users."
 
   # Link custom assets relative to /static
   custom_css = []
@@ -45,12 +45,11 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Tezos Foundation"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
+    about us = "About Us"
+    fundraiser = "Fundraiser"
     team = "Team"
     contact = "Contact"
 
