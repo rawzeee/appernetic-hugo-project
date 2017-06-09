@@ -45,38 +45,6 @@ theme = "hugo-artists-theme"
 		title = "About us"
 		bio = "**Tezos is a new decentralized blockchain that governs itself by establishing a true digital commonwealth.** It facilitates formal verification, a technique which mathematically proves the correctness of the code governing transactions and boosts the security of the most sensitive or financially weighted smart contracts."
 
-		[[params.about.skills]]
-			name = "Communication"
-			value = 9
-
-		[[params.about.skills]]
-			name = "Organization"
-			value = 7
-
-		[[params.about.skills]]
-			name = "Learning"
-			value = 10
-
-		[[params.about.skills]]
-			name = "Teaching"
-			value = 6
-
-		[[params.about.skills]]
-			name = "Planning"
-			value = 7
-
-		[[params.about.skills]]
-			name = "Visual Design"
-			value = 5
-
-		[[params.about.skills]]
-			name = "UX Design"
-			value = 8
-
-		[[params.about.skills]]
-			name = "Programming"
-			value = 6
-
 	# Contact secion
 	[params.contact]
 		title = "Contact"
@@ -86,31 +54,23 @@ theme = "hugo-artists-theme"
 		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 		[[params.contact.social]]
 			icon = "twitter"
-			link = "//twitter.com/devtipsshow"
-
-		[[params.contact.social]]
-			icon = "dribbble"
-			link = "//dribbble.com/travisneilson"
-
-		[[params.contact.social]]
-			icon = "behance"
-			link = "//www.behance.net/travisneilson"
+			link = "//twitter.com/tezosfoundation"
 
 		[[params.contact.social]]
 			icon = "youtube"
-			link = "//www.youtube.com/DevTipsForDesigners"
+			link = "//youtube.com/channel/UCMeXYClRGsIfqS_sqMeolqQ/feed"
 
 		[[params.contact.social]]
 			icon = "linkedin"
-			link = "//www.linkedin.com/in/travisneilson"
+			link = "//linkedin.com/company-beta/18084110"
 
 
 	[params.form]
-		title = "Let's work together"
+		title = "Contact us"
 		# Form fields
 		name = "Your Name"
 		email = "Your Email"
-		message = "Tell me about your project"
+		message = "Have a question?"
 		buttonText = "Send"
 
 
