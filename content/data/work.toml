@@ -1,0 +1,6 @@
+# Section title
+title = "Work"
+
+[[projects]]
+    name = "TYPO International Design Talks"
+    folder = "proj-1"
