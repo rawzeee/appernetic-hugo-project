@@ -45,17 +45,6 @@ theme = "hugo-artists-theme"
 		title = "About Tezos"
 		bio = "Tezos is a new decentralized blockchain that governs itself by establishing a true digital commonwealth. It facilitates formal verification, a technique which mathematically proves the correctness of the code governing transactions and boosts the security of the most sensitive or financially weighted smart contracts."
 		links = "sdsds"
-		
-		
-	# Section title
-	title = "Clients"
-
-	[[list]]
-	    	avatar = "face-aaroni.jpg"
-	    	name   = "Scott Summers"
-	   	title  = "Director of Design, OnToText Ind."
-	    	quote  = "**While we all felt that Travis was a great** asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often."
-	   	logo   = "logo1.png"
 	    
 	# Contact secion
 	[params.contact]
