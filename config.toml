@@ -47,15 +47,12 @@ theme = "hugo-artists-theme"
 
 		[[params.about.skills]]
 			name = "On-chain Governance"
-			value = 10
 
 		[[params.about.skills]]
 			name = "Smart Contracts"
-			value = 10
 
 		[[params.about.skills]]
 			name = "Formal Verification"
-			value = 10
 
 
 	# Contact secion
