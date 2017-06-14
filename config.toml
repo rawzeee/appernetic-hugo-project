@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://tezos.swiss/"
 languageCode = "en-us"
-title = "Hugo Artists Theme"
+title = "Tezos Foundation"
 theme = "hugo-artists-theme"
 
 [params]
