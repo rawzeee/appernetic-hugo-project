@@ -1,8 +1,8 @@
 # Site settings
-baseurl = "https://tezos.swiss/"
-languageCode = "en-us"
-title = "Tezos Foundation"
-theme = "hugo-artists-theme"
+baseurl = "https://eladshamir.com/" # To test in developement, add baseurl = http://localhost:8000/ run hugo to create the public site, then go to /public and start python -m SimpleHTTPServer 8000. https://eladshamir.com/
+languageCode = "en"
+title = "YOUR SITE"
+theme = "hugo-artist-mod-theme"
 
 [params]
 
@@ -11,7 +11,7 @@ theme = "hugo-artists-theme"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Tezos Foundation"
+	name = "TEZOS"
 	description = "A new digital commonwealth"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
@@ -25,7 +25,7 @@ theme = "hugo-artists-theme"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "contact@tezos.ch"
+	email = "your@email.com"
 
 
 	# Header an navigation
@@ -34,7 +34,7 @@ theme = "hugo-artists-theme"
 	# Do the same with the logo ('logo.svg').
 	# But keep the original filename!
 	[params.header]
-		title = "Tezos Foundation"
+		title = "Tezos.ch"
 		shortBio = "A new digital commonwealth"
 
 
@@ -42,8 +42,10 @@ theme = "hugo-artists-theme"
 	#
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
-		title = "About Tezos"
-		bio = "Tezos is a new decentralized blockchain that governs itself by establishing a true digital commonwealth. It facilitates formal verification, a technique which mathematically proves the correctness of the code governing transactions and boosts the security of the most sensitive or financially weighted smart contracts."
+		title = "About me"
+		bio = "Accomplished and integrity-driven information security professional with extensive experience across all domains of Information Security. Holds an academic degree in information systems engineering as well as several highly sought after certifications. <p>Proficient in identifying flaws and weaknesses, understanding both the big picture and the minute details, and combining his unique experience to identify and exploit hard-to-find vulnerabilities and to provide creative and holistic security solutions, to strategically align security with business objectives.</p>"
+    secondtitle = "Selected Highlights"
+    Highlights = "**Led a high-profile red team attack simulation project** on one of the largest corporations in Australia, and successfully bypassed a series of high-grade security controls to compromise critical systems and access sensitive information, while remaining stealthy (The Missing Link)<p>**Researched vulnerabilities in Supervisory Control and Data Acquisition (SCADA) systems and protocols** and developed IPS protections to detect attacks exploiting them, allowing Check Point to become the first IPS vendor to offer a comprehensive SCADA protection suite (Check Point)</p><p>**While Head of Information Security**, established a territory-wide Information Security program in alignment with the Southern Command’s mission and goals (Israeli Defense Force)</p><p>**As Head of Information Systems Security**, received a decoration in recognition of outstanding service from the President on Independence Day, in the presence of the Prime Minister, Minister of Defense, Chief of General Staff, as well as the entire General Staff (Israeli Defense Force)</p><p>**Planned and drove an extensive end-point hardening project** throughout the southern command for almost 10,000 computers in over 50 different facilities (Israeli Defense Force)</p><p>**Established the Information Systems Security Section** from the ground up and transformed the Southern Command’s non-existent information systems security into a well-defined and strongly managed asset (Israeli Defense Force)</p>"
 
 
 	# Contact secion
@@ -75,13 +77,13 @@ theme = "hugo-artists-theme"
 
 
 	[params.form]
-		title = "Contact Us"
+		title = "Let's work together"
 		# Form fields
 		name = "Your Name"
 		email = "Your Email"
-		message = "Have a question?"
+		message = "Tell me about your project"
 		buttonText = "Send"
 
 
 	[params.footer]
-		copyright = "Published under the Unlicense License."
+		copyright = "Background image: Partial map of the Internet based on the January 15, 2005 data found on <a href='http://www.opte.org/maps/' target='_blank'>opte.org</a> Credit: Barret Lyon, The Opte Project, Attribution 2.5 Generic (CC BY 2.5).<br> © 2017 ELAD SHAMIR."
