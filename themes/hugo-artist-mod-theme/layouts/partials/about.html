@@ -1,0 +1,25 @@
+{{ "<!-- About section -->" | safeHTML }}
+<section>
+    {{ with .Site.Params.about.title }}<h2 id="about-me">{{ . }}</h2>{{ end }}
+
+    <div class="face-lockup">
+        <div class="face-img"></div>
+    </div>
+
+    {{ with .Site.Params.about.bio }}
+    <div class="blurb">
+        <p>{{ . | markdownify }}</p>
+    </div>
+    {{ end }}
+</section>
+
+<section class="alt-section section-work" style="background-color:#fff">
+    {{ with .Site.Params.about.secondtitle }}<h2 id="highlights">{{ . }}</h2>{{ end }}
+
+  {{ with .Site.Params.about.Highlights }}
+  <div class="blurb">
+      <p>{{ . | markdownify }}</p>
+  </div>
+  {{ end }}
+
+</section>
